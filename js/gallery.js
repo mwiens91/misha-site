@@ -2,6 +2,14 @@ jQuery(document).ready(function () {
   jQuery("#gallery").nanogallery2({
     items: [
       {
+        src: "/20211006_235146.jpg",
+        srct: "/thumbs/20211006_235146.jpg",
+      },
+      {
+        src: "/20211006_234824.jpg",
+        srct: "/thumbs/20211006_234824.jpg",
+      },
+      {
         src: "/20211006_111732.jpg",
         srct: "/thumbs/20211006_111732.jpg",
       },
