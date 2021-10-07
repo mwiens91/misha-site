@@ -9,6 +9,7 @@ jQuery(document).ready(function () {
         imgtWidth: 533,
         src: "/20211007_143954.jpg",
         srct: "/thumbs/20211007_143954.jpg",
+        title: "2021-10-07 14:39:54 ET",
       },
       {
         kind: "image",
@@ -18,6 +19,7 @@ jQuery(document).ready(function () {
         imgtWidth: 533,
         src: "/20211006_235146.jpg",
         srct: "/thumbs/20211006_235146.jpg",
+        title: "2021-10-06 23:51:46 ET",
       },
       {
         kind: "image",
@@ -27,6 +29,7 @@ jQuery(document).ready(function () {
         imgtWidth: 300,
         src: "/20211006_234824.jpg",
         srct: "/thumbs/20211006_234824.jpg",
+        title: "2021-10-06 23:48:24 ET",
       },
       {
         kind: "image",
@@ -36,6 +39,7 @@ jQuery(document).ready(function () {
         imgtWidth: 375,
         src: "/20211006_111732.jpg",
         srct: "/thumbs/20211006_111732.jpg",
+        title: "2021-10-06 11:17:32 ET",
       },
       {
         kind: "image",
@@ -45,6 +49,7 @@ jQuery(document).ready(function () {
         imgtWidth: 375,
         src: "/20211006_111654.jpg",
         srct: "/thumbs/20211006_111654.jpg",
+        title: "2021-10-06 11:16:54 ET",
       },
       {
         kind: "image",
@@ -54,6 +59,7 @@ jQuery(document).ready(function () {
         imgtWidth: 375,
         src: "/20211006_110903.jpg",
         srct: "/thumbs/20211006_110903.jpg",
+        title: "2021-10-06 11:09:03 ET",
       },
       {
         kind: "image",
@@ -63,6 +69,7 @@ jQuery(document).ready(function () {
         imgtWidth: 375,
         src: "/20211005_182707.jpg",
         srct: "/thumbs/20211005_182707.jpg",
+        title: "2021-10-05 18:27:07 ET",
       },
       {
         kind: "image",
@@ -72,6 +79,7 @@ jQuery(document).ready(function () {
         imgtWidth: 375,
         src: "/20211005_173831.jpg",
         srct: "/thumbs/20211005_173831.jpg",
+        title: "2021-10-05 17:38:31 ET",
       },
       {
         kind: "image",
@@ -81,6 +89,7 @@ jQuery(document).ready(function () {
         imgtWidth: 375,
         src: "/20211005_163315.jpg",
         srct: "/thumbs/20211005_163315.jpg",
+        title: "2021-10-05 16:33:16 ET",
       },
       {
         kind: "image",
@@ -90,6 +99,7 @@ jQuery(document).ready(function () {
         imgtWidth: 375,
         src: "/20211005_143207.jpg",
         srct: "/thumbs/20211005_143207.jpg",
+        title: "2021-10-05 14:32:07 ET",
       },
       {
         kind: "image",
@@ -99,14 +109,16 @@ jQuery(document).ready(function () {
         imgtWidth: 375,
         src: "/20211005_143100.jpg",
         srct: "/thumbs/20211005_143100.jpg",
+        title: "2021-10-05 14:31:00 ET",
       },
     ],
     thumbnailWidth: "auto",
     thumbnailHeight: 400,
+    thumbnailLabel: { display: false },
     itemsBaseURL:
       "https://raw.githubusercontent.com/mwiens91/misha-pics/master/pics",
     viewerTools: {
-      topLeft: "playPauseButton",
+      topLeft: "label",
       topRight: "zoomButton, fullscreenButton, downloadButton, closeButton",
     },
   });
